@@ -2,3 +2,5 @@ Build Crud Operation Using Angular 9 And .Net Core 3.1 WebAPI And Deploy To Azur
 /https://www.c-sharpcorner.com/article/build-crud-operation-using-angular-9-and-dot-net-core-3-1-webapi-and-deploy-to-a/
 
 work on creating the front in angular and push it to git
+
+The part is: Front-End Code (copy and past it on search web browser)

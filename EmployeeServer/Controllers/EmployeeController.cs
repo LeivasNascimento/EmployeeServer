@@ -14,7 +14,13 @@ namespace EmployeeServer.Controllers
         public EmployeeController(EmployeeContext employeeContext)
         {
             EmpDetails = employeeContext;
-        }
+        } //em ConfigureServices de Startup.cs, é instanciado no construtor de **todos** os controlers 
+        // a refereência de EmployeeContext, conforme abaixo
+       
+        /* 
+           services.AddDbContext<EmployeeContext>(options => options.UseSqlServer(
+           Configuration.GetConnectionString("EmployeeDbConnection")));
+        */
 
         [HttpGet]
         public IEnumerable<Employee> Get()
